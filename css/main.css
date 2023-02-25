@@ -1,6 +1,6 @@
 @import url('font-inter.css');
 :root {
-  --primarycolor: #0A76D8;
+  --primarycolor: #2cd573;;
   --primarycolorhover: #006dd3;
   --btnice:#D8EBFA;
   --btnnicetext:#1b62b3;
@@ -110,7 +110,6 @@ body{
     box-shadow: none;
     transition: all 0.5s;
     font-family: 'Inter', sans-serif;
-
 }
 
 
@@ -540,7 +539,7 @@ input[type=search]:focus {
 
 
 .doctor-header{
-  background-image: url(../img/b8.jpg);
+  background-color: rgb(127, 255, 180);
   color: rgba(0, 0, 0, 0.87);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -549,7 +548,7 @@ input[type=search]:focus {
 }
 
 .patient-header{
-  /* background-image: url(../img/b3.jpg); */
+  background-color: rgb(127, 255, 180);
 }
 
 .search-items{

@@ -1,9 +1,10 @@
 body{
-    background-image: url(../img/background.jpg);
+    /* background-image: url(../img/background.jpg); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+    background-image: url('../img/homebg.png');
 }
 
 html, body {
@@ -12,7 +13,8 @@ html, body {
   }
   
 .full-height {
-    background: rgba(26, 26, 26, 0.548);
+   
+    background-repeat: no-repeat;
     background-attachment: fixed;
     max-height: 100vh;
     height: 100vh;
@@ -25,7 +27,7 @@ table{
     
 }
 .heading-text{
-    color: white;
+    color: rgb(25, 182, 90);
     font-size: 42px;
     font-weight: 700;
     line-height: 63px;
@@ -35,7 +37,7 @@ table{
 }
 
 .sub-text2{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(83, 228, 244, 0.811);
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
@@ -51,7 +53,7 @@ table{
 
 
 .edoc-logo{
-    color: white;
+    color: rgb(25, 182, 90);
     font-weight: bolder;
     font-size: 20px;
     padding-left: 20px;
@@ -66,7 +68,7 @@ table{
 
 
 .nav-item{
-    color: rgba(255, 255, 255, 0.671);
+    color: rgb(70, 255, 147);
     text-align: center;
     font-size: 15px;
     font-weight: 500;
